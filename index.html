@@ -11,11 +11,11 @@ var OriginTitile = document.title;
 var titleTime;
 document.addEventListener('visibilitychange', function() {
     if (document.hidden) {
-        document.title = '(つェ?)看不到我~ ';
+        document.title = '看不到我[doge] ';
         clearTimeout(titleTime);
     }
     else {
-        document.title = '(*′?｀*) 被发现啦~ ' ;
+        document.title = '焯！被你看到了！ ' ;
         titleTime = setTimeout(function() {
             document.title = OriginTitile;
         }, 2000);
